@@ -1,0 +1,29 @@
+#random-number{
+    background-color: greenyellow;
+    margin-left: 30px;
+    margin-right: 120px;
+    padding: 50px;
+    color: black;
+}
+#counter{
+    height: 120px;
+    width: 120px;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#current-score{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#h1{
+    background-color: black;
+    color: white
+}
+p{
+    color: black;
+}
+#instructions{
+    border-bottom: 40px;
+    border-color: black
+}
