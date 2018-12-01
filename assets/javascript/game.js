@@ -21,17 +21,19 @@ $(document).ready(function(){
     function winner(){
         wins++;
         $("#wins").text("wins: " + wins);
+        reset();
     }
     function loser(){
         loses++;
-        reset();
         $("#loses1").html("loses: " + loses);
+        reset();
     }
 
     function reset(){
-        Random=Math.floor(Math.random()*102)+19;
-        console.log(Random)
-        $('#randomNumber').text(Random);
+        randomNumber = Math.floor(Math.random()*102)+19;
+        $("#random-number").text(randomNumber);
+        console.log(randomNumber);
+        // $('#randomNumber').text(randomNumber);
         num1= Math.floor(Math.random()*12)+1;
         num2= Math.floor(Math.random()*12)+1;
         num3= Math.floor(Math.random()*12)+1;
